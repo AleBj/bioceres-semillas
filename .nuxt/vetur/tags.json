@@ -1,0 +1,119 @@
+{
+  "Button": {
+    "description": "Auto imported from components/Button.vue"
+  },
+  "ButtonAccess": {
+    "description": "Auto imported from components/ButtonAccess.vue"
+  },
+  "ButtonArrow": {
+    "description": "Auto imported from components/ButtonArrow.vue"
+  },
+  "LazyPicture": {
+    "description": "Auto imported from components/LazyPicture.vue"
+  },
+  "MediaItem": {
+    "description": "Auto imported from components/MediaItem.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "SiteFoot": {
+    "description": "Auto imported from components/SiteFoot.vue"
+  },
+  "SiteHead": {
+    "description": "Auto imported from components/SiteHead.vue"
+  },
+  "TheGrid": {
+    "description": "Auto imported from components/TheGrid.vue"
+  },
+  "TitleText": {
+    "description": "Auto imported from components/TitleText.vue"
+  },
+  "Video": {
+    "description": "Auto imported from components/Video.vue"
+  },
+  "AboutHero": {
+    "description": "Auto imported from components/about/Hero.vue"
+  },
+  "AboutInfo": {
+    "description": "Auto imported from components/about/Info.vue"
+  },
+  "AboutLetsDoIt": {
+    "description": "Auto imported from components/about/LetsDoIt.vue"
+  },
+  "AsesorContent": {
+    "description": "Auto imported from components/asesor/Content.vue"
+  },
+  "AsesorHero": {
+    "description": "Auto imported from components/asesor/Hero.vue"
+  },
+  "AsesorValueSeed": {
+    "description": "Auto imported from components/asesor/ValueSeed.vue"
+  },
+  "EntrenaHero": {
+    "description": "Auto imported from components/entrena/Hero.vue"
+  },
+  "EntrenaHistory": {
+    "description": "Auto imported from components/entrena/History.vue"
+  },
+  "EntrenaProfile": {
+    "description": "Auto imported from components/entrena/Profile.vue"
+  },
+  "EntrenaRecommendations": {
+    "description": "Auto imported from components/entrena/Recommendations.vue"
+  },
+  "EntrenaValueSeed": {
+    "description": "Auto imported from components/entrena/ValueSeed.vue"
+  },
+  "EntrenaWhy": {
+    "description": "Auto imported from components/entrena/Why.vue"
+  },
+  "DetailHistory": {
+    "description": "Auto imported from components/detail/History.vue"
+  },
+  "DetailInfo": {
+    "description": "Auto imported from components/detail/Info.vue"
+  },
+  "DetailIntro": {
+    "description": "Auto imported from components/detail/Intro.vue"
+  },
+  "DetailValueSeed": {
+    "description": "Auto imported from components/detail/ValueSeed.vue"
+  },
+  "ProductsHero": {
+    "description": "Auto imported from components/products/Hero.vue"
+  },
+  "ProductsListProducts": {
+    "description": "Auto imported from components/products/ListProducts.vue"
+  },
+  "ProductsValueSeed": {
+    "description": "Auto imported from components/products/ValueSeed.vue"
+  },
+  "HomeDiscover": {
+    "description": "Auto imported from components/home/Discover.vue"
+  },
+  "HomeHero": {
+    "description": "Auto imported from components/home/Hero.vue"
+  },
+  "HomeValue": {
+    "description": "Auto imported from components/home/Value.vue"
+  },
+  "SemillasHero": {
+    "description": "Auto imported from components/semillas/Hero.vue"
+  },
+  "SemillasValueSeed": {
+    "description": "Auto imported from components/semillas/ValueSeed.vue"
+  },
+  "TecDiscover": {
+    "description": "Auto imported from components/tec/Discover.vue"
+  },
+  "TecHero": {
+    "description": "Auto imported from components/tec/Hero.vue"
+  },
+  "TecInfo": {
+    "description": "Auto imported from components/tec/Info.vue"
+  },
+  "TecMap": {
+    "description": "Auto imported from components/tec/Map.vue"
+  }
+}

@@ -1,0 +1,47 @@
+# Discovered Components
+
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
+
+You can directly use them in pages and other components without the need to import them.
+
+**Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
+
+- `<Button>` | `<button>` (components/Button.vue)
+- `<ButtonAccess>` | `<button-access>` (components/ButtonAccess.vue)
+- `<ButtonArrow>` | `<button-arrow>` (components/ButtonArrow.vue)
+- `<Picture>` | `<picture>` (components/LazyPicture.vue)
+- `<MediaItem>` | `<media-item>` (components/MediaItem.vue)
+- `<Menu>` | `<menu>` (components/Menu.vue)
+- `<SiteFoot>` | `<site-foot>` (components/SiteFoot.vue)
+- `<SiteHead>` | `<site-head>` (components/SiteHead.vue)
+- `<TheGrid>` | `<the-grid>` (components/TheGrid.vue)
+- `<TitleText>` | `<title-text>` (components/TitleText.vue)
+- `<Video>` | `<video>` (components/Video.vue)
+- `<AboutHero>` | `<about-hero>` (components/about/Hero.vue)
+- `<AboutInfo>` | `<about-info>` (components/about/Info.vue)
+- `<AboutLetsDoIt>` | `<about-lets-do-it>` (components/about/LetsDoIt.vue)
+- `<AsesorContent>` | `<asesor-content>` (components/asesor/Content.vue)
+- `<AsesorHero>` | `<asesor-hero>` (components/asesor/Hero.vue)
+- `<AsesorValueSeed>` | `<asesor-value-seed>` (components/asesor/ValueSeed.vue)
+- `<EntrenaHero>` | `<entrena-hero>` (components/entrena/Hero.vue)
+- `<EntrenaHistory>` | `<entrena-history>` (components/entrena/History.vue)
+- `<EntrenaProfile>` | `<entrena-profile>` (components/entrena/Profile.vue)
+- `<EntrenaRecommendations>` | `<entrena-recommendations>` (components/entrena/Recommendations.vue)
+- `<EntrenaValueSeed>` | `<entrena-value-seed>` (components/entrena/ValueSeed.vue)
+- `<EntrenaWhy>` | `<entrena-why>` (components/entrena/Why.vue)
+- `<DetailHistory>` | `<detail-history>` (components/detail/History.vue)
+- `<DetailInfo>` | `<detail-info>` (components/detail/Info.vue)
+- `<DetailIntro>` | `<detail-intro>` (components/detail/Intro.vue)
+- `<DetailValueSeed>` | `<detail-value-seed>` (components/detail/ValueSeed.vue)
+- `<ProductsHero>` | `<products-hero>` (components/products/Hero.vue)
+- `<ProductsListProducts>` | `<products-list-products>` (components/products/ListProducts.vue)
+- `<ProductsValueSeed>` | `<products-value-seed>` (components/products/ValueSeed.vue)
+- `<HomeDiscover>` | `<home-discover>` (components/home/Discover.vue)
+- `<HomeHero>` | `<home-hero>` (components/home/Hero.vue)
+- `<HomeValue>` | `<home-value>` (components/home/Value.vue)
+- `<SemillasHero>` | `<semillas-hero>` (components/semillas/Hero.vue)
+- `<SemillasValueSeed>` | `<semillas-value-seed>` (components/semillas/ValueSeed.vue)
+- `<TecDiscover>` | `<tec-discover>` (components/tec/Discover.vue)
+- `<TecHero>` | `<tec-hero>` (components/tec/Hero.vue)
+- `<TecInfo>` | `<tec-info>` (components/tec/Info.vue)
+- `<TecMap>` | `<tec-map>` (components/tec/Map.vue)

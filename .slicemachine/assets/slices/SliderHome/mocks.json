@@ -1,0 +1,35 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {
+        "background_video": {
+          "link_type": "Media",
+          "name": "mock",
+          "kind": "image",
+          "url": "https://source.unsplash.com/random",
+          "size": "10kB"
+        },
+        "background_image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72"
+        },
+        "title_slider": "make",
+        "strong_text_slider": "in",
+        "link_boton": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "cta_boton": "surrounded"
+      }
+    ],
+    "primary": {},
+    "slice_type": "slider_home"
+  }
+]

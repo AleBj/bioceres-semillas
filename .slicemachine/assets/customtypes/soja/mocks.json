@@ -1,0 +1,54 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "soja",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "posicion": 77,
+    "nuevo": true,
+    "nombre": "walk",
+    "descripcion": [
+      {
+        "type": "paragraph",
+        "text": "Anim et ullamco esse excepteur commodo. Ut elit exercitation irure laborum nulla consequat.",
+        "spans": []
+      }
+    ],
+    "imagen": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db"
+    },
+    "grupo_madurez": "3 corto",
+    "imagen_siembra_1": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+    },
+    "imagen_siembra_2": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9"
+    },
+    "slices": []
+  }
+}

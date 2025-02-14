@@ -1,0 +1,83 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "nuestras_raices",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "titulo": [
+      {
+        "type": "paragraph",
+        "text": "Dolore tempor ullamco et reprehenderit. Et laboris velit enim ex culpa consectetur duis ad labore Lorem mollit.",
+        "spans": []
+      }
+    ],
+    "nuestro_video": {
+      "embed_url": "https://twitter.com/prismicio/status/1356293316158095361",
+      "author_name": "Prismic",
+      "author_url": "https://twitter.com/prismicio",
+      "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Gatsby is a popular choice for Prismic users and we work hard on delivering a CMS that plays to its strengths.<br><br>But, what makes <a href=\"https://twitter.com/GatsbyJS?ref_src=twsrc%5Etfw\">@GatsbyJS</a> so popular?<br><br>Here are some of <a href=\"https://twitter.com/mxstbr?ref_src=twsrc%5Etfw\">@mxstbr</a>&#39;s thoughts on Gatsby&#39;s success and how they&#39;re improving developer experience.<a href=\"https://t.co/ZjCPvsWWUD\">https://t.co/ZjCPvsWWUD</a> <a href=\"https://t.co/EQqzJpeNKl\">pic.twitter.com/EQqzJpeNKl</a></p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1356293316158095361?ref_src=twsrc%5Etfw\">February 1, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+      "width": 550,
+      "height": null,
+      "type": "rich",
+      "cache_age": "3153600000",
+      "provider_name": "Twitter",
+      "provider_url": "http://www.twitter.com/",
+      "version": "1.0"
+    },
+    "intro_titulo": [
+      {
+        "type": "heading2",
+        "text": "Handle",
+        "spans": []
+      }
+    ],
+    "intro_texto": [
+      {
+        "type": "paragraph",
+        "text": "Sit fugiat ad eu aute minim mollit incididunt. Laboris fugiat sit culpa aliqua eu qui esse. Ea anim consequat magna cupidatat non ipsum est adipisicing laboris voluptate sint quis.",
+        "spans": []
+      }
+    ],
+    "intro_quote": [
+      {
+        "type": "paragraph",
+        "text": "Aliquip esse cillum eiusmod ea ea id ad. Enim ex proident consequat et. Esse consectetur mollit laborum ex consectetur Lorem commodo quis duis cillum ut.",
+        "spans": []
+      }
+    ],
+    "intro_texto_final": [
+      {
+        "type": "paragraph",
+        "text": "Labore eu laborum non sit culpa occaecat dolor consectetur eu consectetur irure minim officia reprehenderit. Sint deserunt eiusmod irure cillum sunt ad magna. Nulla ullamco voluptate ipsum.",
+        "spans": []
+      }
+    ],
+    "link_boton": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "cta_boton": "reach",
+    "prefooter_texto": [
+      {
+        "type": "paragraph",
+        "text": "Elit occaecat culpa culpa. Pariatur esse reprehenderit commodo sint minim reprehenderit ad aute incididunt duis occaecat eiusmod ullamco.",
+        "spans": []
+      }
+    ],
+    "prefooter_title": "strike",
+    "prefooter_video": {
+      "link_type": "Media",
+      "name": "mock",
+      "kind": "image",
+      "url": "https://source.unsplash.com/random",
+      "size": "10kB"
+    }
+  }
+}

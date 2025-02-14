@@ -1,0 +1,594 @@
+{
+  "slices": {
+    "components": {
+      "caracteristicas": {
+        "library": "slices",
+        "id": "caracteristicas",
+        "name": "Caracteristicas",
+        "description": "Caracteristicas",
+        "model": {
+          "id": "caracteristicas",
+          "type": "SharedSlice",
+          "name": "Caracteristicas",
+          "description": "Caracteristicas",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Caracteristicas",
+              "primary": {
+                "titulo": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Título",
+                    "placeholder": ""
+                  }
+                },
+                "imagen_background": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Imagen Background",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "video_background": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Video Background",
+                    "placeholder": "",
+                    "select": "media"
+                  }
+                },
+                "leyenda": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Leyenda",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "multi": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "icono": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Ícono",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "texto": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Texto",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "single": "paragraph,strong"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "icono": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869"
+                },
+                "texto": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat consequat id ad ad. Est pariatur sunt laboris irure eu in adipisicing ea et ut.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "titulo": "lonely",
+              "imagen_background": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+              },
+              "video_background": {
+                "link_type": "Media",
+                "name": "mock",
+                "kind": "image",
+                "url": "https://source.unsplash.com/random",
+                "size": "10kB"
+              },
+              "leyenda": [
+                {
+                  "type": "paragraph",
+                  "text": "Anim ullamco anim exercitation.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "caracteristicas"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alemarsico/Desktop/bioceres-semillas/slices/Caracteristicas/default/preview.png",
+            "width": 1286,
+            "height": 709
+          }
+        }
+      },
+      "historias_reales": {
+        "library": "slices",
+        "id": "historias_reales",
+        "name": "HistoriasReales",
+        "description": "HistoriasReales",
+        "model": {
+          "id": "historias_reales",
+          "type": "SharedSlice",
+          "name": "HistoriasReales",
+          "description": "HistoriasReales",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HistoriasReales",
+              "primary": {},
+              "items": {
+                "imagen_thumb": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Imagen Thumb",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "video_historia": {
+                  "type": "Embed",
+                  "config": {
+                    "label": "Video Historia",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "imagen_thumb": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055"
+                },
+                "video_historia": {
+                  "embed_url": "https://twitter.com/prismicio/status/1354835716430319617",
+                  "author_name": "Prismic",
+                  "author_url": "https://twitter.com/prismicio",
+                  "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Does anyone want to create a wildly popular website for discussing &#39;Wall Street Bets&#39; using Prismic?<br><br>It may or may not have to look a lot like <a href=\"https://twitter.com/hashtag/reddit?src=hash&amp;ref_src=twsrc%5Etfw\">#reddit</a> and we won&#39;t make it private.<br><br>Just asking for some friends...</p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1354835716430319617?ref_src=twsrc%5Etfw\">January 28, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+                  "width": 550,
+                  "height": null,
+                  "type": "rich",
+                  "cache_age": "3153600000",
+                  "provider_name": "Twitter",
+                  "provider_url": "http://www.twitter.com/",
+                  "version": "1.0"
+                }
+              }
+            ],
+            "primary": {},
+            "slice_type": "historias_reales"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alemarsico/Desktop/bioceres-semillas/slices/HistoriasReales/default/preview.png",
+            "width": 662,
+            "height": 407
+          }
+        }
+      },
+      "perfil_sanitario": {
+        "library": "slices",
+        "id": "perfil_sanitario",
+        "name": "PerfilSanitario",
+        "description": "PerfilSanitario",
+        "model": {
+          "id": "perfil_sanitario",
+          "type": "SharedSlice",
+          "name": "PerfilSanitario",
+          "description": "PerfilSanitario",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PerfilSanitario",
+              "primary": {
+                "ficha_tecnica": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Ficha Técnica",
+                    "placeholder": "",
+                    "select": "media"
+                  }
+                }
+              },
+              "items": {
+                "titulo": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Titulo",
+                    "placeholder": ""
+                  }
+                },
+                "caracteristica": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Característica",
+                    "placeholder": ""
+                  }
+                },
+                "color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Color",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "titulo": "eaten",
+                "caracteristica": "dream",
+                "color": "#b1c1f2"
+              }
+            ],
+            "primary": {
+              "ficha_tecnica": {
+                "link_type": "Media",
+                "name": "mock",
+                "kind": "image",
+                "url": "https://source.unsplash.com/random",
+                "size": "10kB"
+              }
+            },
+            "slice_type": "perfil_sanitario"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alemarsico/Desktop/bioceres-semillas/slices/PerfilSanitario/default/preview.png",
+            "width": 724,
+            "height": 410
+          }
+        }
+      },
+      "slider_home": {
+        "library": "slices",
+        "id": "slider_home",
+        "name": "SliderHome",
+        "description": "SliderHome",
+        "model": {
+          "id": "slider_home",
+          "type": "SharedSlice",
+          "name": "SliderHome",
+          "description": "SliderHome",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SliderHome",
+              "primary": {},
+              "items": {
+                "background_video": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Background Video",
+                    "placeholder": "",
+                    "select": "media"
+                  }
+                },
+                "background_image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Background Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "title_slider": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title Slider",
+                    "placeholder": ""
+                  }
+                },
+                "strong_text_slider": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Strong Text Slider",
+                    "placeholder": ""
+                  }
+                },
+                "link_boton": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link Botón",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "cta_boton": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA Botón",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "background_video": {
+                  "link_type": "Media",
+                  "name": "mock",
+                  "kind": "image",
+                  "url": "https://source.unsplash.com/random",
+                  "size": "10kB"
+                },
+                "background_image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72"
+                },
+                "title_slider": "make",
+                "strong_text_slider": "in",
+                "link_boton": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                },
+                "cta_boton": "surrounded"
+              }
+            ],
+            "primary": {},
+            "slice_type": "slider_home"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alemarsico/Desktop/bioceres-semillas/slices/SliderHome/default/preview.png",
+            "width": 1278,
+            "height": 621
+          }
+        }
+      },
+      "tabs_tech": {
+        "library": "slices",
+        "id": "tabs_tech",
+        "name": "TabsTech",
+        "description": "TabsTech",
+        "model": {
+          "id": "tabs_tech",
+          "type": "SharedSlice",
+          "name": "TabsTech",
+          "description": "TabsTech",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TabsTech",
+              "primary": {},
+              "items": {
+                "label_tab": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Label Tab",
+                    "placeholder": ""
+                  }
+                },
+                "titulo": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Título",
+                    "placeholder": ""
+                  }
+                },
+                "texto": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Texto",
+                    "placeholder": ""
+                  }
+                },
+                "duracion": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Duración",
+                    "placeholder": ""
+                  }
+                },
+                "imagen": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Imagen",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "color": {
+                  "type": "Color",
+                  "config": {
+                    "label": "Color",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "label_tab": "along",
+                "titulo": "up",
+                "texto": "anything",
+                "duracion": "class",
+                "imagen": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea"
+                },
+                "color": "#d3393f"
+              }
+            ],
+            "primary": {},
+            "slice_type": "tabs_tech"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alemarsico/Desktop/bioceres-semillas/slices/TabsTech/default/preview.png",
+            "width": 1296,
+            "height": 605
+          }
+        }
+      },
+      "rich_text": {
+        "library": "slices",
+        "id": "rich_text",
+        "name": "TrigoDescription",
+        "description": "RichText",
+        "model": {
+          "id": "rich_text",
+          "type": "SharedSlice",
+          "name": "TrigoDescription",
+          "description": "RichText",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "RichText",
+              "primary": {},
+              "items": {
+                "icono": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Ícono",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "texto": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Texto",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {},
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/alemarsico/Desktop/bioceres-semillas/slices/TrigoDescription/default/preview.png",
+            "width": 717,
+            "height": 360
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "tecnologia",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "titulo": [
+      {
+        "type": "paragraph",
+        "text": "Elit culpa velit ea dolore consequat eiusmod exercitation proident duis laboris cupidatat ut ut laborum quis. Dolor nulla excepteur quis ea laborum ullamco aliquip sint. Commodo ut consequat laborum excepteur.",
+        "spans": []
+      }
+    ],
+    "video_hero": {
+      "link_type": "Media",
+      "name": "mock",
+      "kind": "image",
+      "url": "https://source.unsplash.com/random",
+      "size": "10kB"
+    },
+    "texto_tolerancia": [
+      {
+        "type": "paragraph",
+        "text": "Sint dolore reprehenderit magna occaecat aliqua sit velit. Ipsum sunt amet nulla aliqua eu sint consectetur reprehenderit eu. Ad nulla tempor culpa ullamco minim ea sint incididunt.",
+        "spans": []
+      }
+    ],
+    "destacado_tolerancia": "boat",
+    "texto_funciona": [
+      {
+        "type": "paragraph",
+        "text": "Cupidatat tempor id aute eu eu excepteur ullamco dolor id consectetur. Cupidatat consequat eiusmod mollit excepteur ut sunt culpa occaecat ex ipsum. Nulla sit fugiat adipisicing sint veniam.",
+        "spans": []
+      }
+    ],
+    "destacado_funciona": "mouse",
+    "descarga_whitepapper": {
+      "link_type": "Media",
+      "name": "mock",
+      "kind": "image",
+      "url": "https://source.unsplash.com/random",
+      "size": "10kB"
+    },
+    "texto_sabias": [
+      {
+        "type": "paragraph",
+        "text": "Ut dolore reprehenderit eu labore sunt. Occaecat quis sunt Lorem enim eu incididunt mollit laborum officia officia aliquip do elit nostrud id.",
+        "spans": []
+      }
+    ],
+    "video_sabias": {
+      "link_type": "Media",
+      "name": "mock",
+      "kind": "image",
+      "url": "https://source.unsplash.com/random",
+      "size": "10kB"
+    },
+    "titulo_tabs": [
+      {
+        "type": "paragraph",
+        "text": "Id nostrud enim consectetur aliqua ex ad incididunt do.",
+        "spans": []
+      }
+    ],
+    "mapa": [
+      {
+        "numero_mapa": 37,
+        "titulo_mapa": "nation",
+        "texto_mapa": [
+          {
+            "type": "paragraph",
+            "text": "Dolore ut pariatur nulla dolore adipisicing velit sunt ipsum non magna. Fugiat ex tempor labore aute commodo sit dolor magna veniam cillum.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "imagen_bloque_1": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636"
+    },
+    "texto_bloque_1": "cause",
+    "link_bloque_1": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "cta_boton_bloque_1": "teacher",
+    "imagen_bloque_2": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51"
+    },
+    "texto_bloque_2": "path",
+    "link_bloque_2": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "cta_boton_bloque_2": "ready",
+    "slices": []
+  }
+}

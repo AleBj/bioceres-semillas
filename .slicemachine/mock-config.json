@@ -1,0 +1,142 @@
+{
+  "_cts": {
+    "home": {},
+    "soja": {},
+    "trigo": {},
+    "nuestras_raices": {
+      "intro_texto": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "intro_titulo": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "intro_quote": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "prefooter_texto": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "titulo": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "tecnologia": {
+      "titulo": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "mapa": {
+        "texto_mapa": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      },
+      "texto_funciona": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "texto_tolerancia": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "titulo_tabs": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "vicia_villosa": {
+      "texto_hero": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "recomendaciones": {}
+    },
+    "como_comprar": {},
+    "asesor_inteligente": {},
+    "general_data": {}
+  },
+  "slices": {
+    "SliderHome": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Caracteristicas": {
+      "default": {
+        "primary": {
+          "leyenda": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "texto": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "PerfilSanitario": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "TrigoDescription": {
+      "default": {
+        "primary": {},
+        "items": {
+          "texto": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "HistoriasReales": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "TabsTech": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

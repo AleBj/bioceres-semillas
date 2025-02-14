@@ -1,0 +1,85 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/.nuxt/prismic/pages/preview.vue",
+    "_name": "_7052966f"
+  },
+  {
+    "name": "asesor-inteligente",
+    "path": "/asesor-inteligente",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/asesor-inteligente.vue",
+    "chunkName": "pages/asesor-inteligente",
+    "_name": "_2803565b"
+  },
+  {
+    "name": "como-comprar",
+    "path": "/como-comprar",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/como-comprar.vue",
+    "chunkName": "pages/como-comprar",
+    "_name": "_ac11fd68"
+  },
+  {
+    "name": "cultivos-soja",
+    "path": "/cultivos-soja",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/cultivos-soja.vue",
+    "chunkName": "pages/cultivos-soja",
+    "_name": "_d7fc32e4"
+  },
+  {
+    "name": "cultivos-trigo",
+    "path": "/cultivos-trigo",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/cultivos-trigo.vue",
+    "chunkName": "pages/cultivos-trigo",
+    "_name": "_de260730"
+  },
+  {
+    "name": "nuestras-raices",
+    "path": "/nuestras-raices",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/nuestras-raices.vue",
+    "chunkName": "pages/nuestras-raices",
+    "_name": "_17044050"
+  },
+  {
+    "name": "producto-detalle",
+    "path": "/producto-detalle",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/producto-detalle.vue",
+    "chunkName": "pages/producto-detalle",
+    "_name": "_41746a61"
+  },
+  {
+    "name": "tecnologia",
+    "path": "/tecnologia",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/tecnologia.vue",
+    "chunkName": "pages/tecnologia",
+    "_name": "_01e6f400"
+  },
+  {
+    "name": "vicia-villosa",
+    "path": "/vicia-villosa",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/vicia-villosa.vue",
+    "chunkName": "pages/vicia-villosa",
+    "_name": "_91953684"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4566e90b"
+  },
+  {
+    "name": "soja-uid",
+    "path": "/soja/:uid?",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/soja/_uid.vue",
+    "chunkName": "pages/soja/_uid",
+    "_name": "_4ca9e5c6"
+  },
+  {
+    "name": "trigo-uid",
+    "path": "/trigo/:uid?",
+    "component": "/Users/alemarsico/Desktop/bioceres-semillas/pages/trigo/_uid.vue",
+    "chunkName": "pages/trigo/_uid",
+    "_name": "_49fd1a64"
+  }
+]

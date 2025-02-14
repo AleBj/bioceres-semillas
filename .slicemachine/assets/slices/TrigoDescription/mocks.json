@@ -1,0 +1,28 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {
+        "icono": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef"
+        },
+        "texto": [
+          {
+            "type": "paragraph",
+            "text": "Aliquip cillum aliquip fugiat eiusmod et adipisicing laborum ea eu ut cupidatat occaecat adipisicing elit dolore. In dolor proident irure aute mollit nostrud excepteur pariatur cillum ipsum dolor dolore officia cupidatat. Labore sunt sunt consectetur ea amet.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {},
+    "slice_type": "rich_text"
+  }
+]
