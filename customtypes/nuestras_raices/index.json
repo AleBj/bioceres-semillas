@@ -1,0 +1,101 @@
+{
+  "id": "nuestras_raices",
+  "label": "Nuestras Raíces",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "titulo": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Título",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong"
+        }
+      },
+      "nuestro_video": {
+        "type": "Embed",
+        "config": {
+          "label": "Nuestro video",
+          "placeholder": ""
+        }
+      },
+      "intro_titulo": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Intro Título",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "heading2"
+        }
+      },
+      "intro_texto": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Intro Texto",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong,em"
+        }
+      },
+      "intro_quote": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Intro Quote",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong"
+        }
+      },
+      "intro_texto_final": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Intro Texto final",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "link_boton": {
+        "type": "Link",
+        "config": {
+          "label": "Link Botón",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "cta_boton": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Botón",
+          "placeholder": ""
+        }
+      },
+      "prefooter_texto": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Prefooter Texto",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong"
+        }
+      },
+      "prefooter_title": {
+        "type": "Text",
+        "config": {
+          "label": "Prefooter Title",
+          "placeholder": ""
+        }
+      },
+      "prefooter_video": {
+        "type": "Link",
+        "config": {
+          "label": "Prefooter Video",
+          "placeholder": "",
+          "select": "media"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "soja",
+  "label": "Soja",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "posicion": {
+        "type": "Number",
+        "config": {
+          "label": "Posición",
+          "placeholder": "0"
+        }
+      },
+      "nuevo": {
+        "type": "Boolean",
+        "config": {
+          "label": "Nuevo",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      },
+      "nombre": {
+        "type": "Text",
+        "config": {
+          "label": "Nombre",
+          "placeholder": ""
+        }
+      },
+      "descripcion": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Descripción",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "imagen": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "grupo_madurez": {
+        "type": "Select",
+        "config": {
+          "label": "Grupo de madurez",
+          "placeholder": "Elige grupo",
+          "options": [
+            "3 corto",
+            "3 medio",
+            "3 largo",
+            "4 corto",
+            "4 medio",
+            "4 largo",
+            "5 corto",
+            "5 medio",
+            "5 largo"
+          ]
+        }
+      },
+      "imagen_siembra_1": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen siembra 1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagen_siembra_2": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen siembra 2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "caracteristicas": {
+              "type": "SharedSlice"
+            },
+            "historias_reales": {
+              "type": "SharedSlice"
+            },
+            "perfil_sanitario": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

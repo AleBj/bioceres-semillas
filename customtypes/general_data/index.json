@@ -1,0 +1,57 @@
+{
+  "id": "general_data",
+  "label": "General Data",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "link_list_hb4": {
+        "type": "Group",
+        "config": {
+          "label": "Link list HB4",
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "label_link": {
+              "type": "Text",
+              "config": {
+                "label": "Label Link",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "video_hero_trigo": {
+        "type": "Link",
+        "config": {
+          "label": "Video Hero Trigo",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_hero_soja": {
+        "type": "Link",
+        "config": {
+          "label": "Video Hero Soja",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_asesor_productos": {
+        "type": "Link",
+        "config": {
+          "label": "Video Asesor Productos",
+          "placeholder": "",
+          "select": "media"
+        }
+      }
+    }
+  }
+}

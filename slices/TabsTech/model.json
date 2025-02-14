@@ -1,0 +1,62 @@
+{
+  "id": "tabs_tech",
+  "type": "SharedSlice",
+  "name": "TabsTech",
+  "description": "TabsTech",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TabsTech",
+      "primary": {},
+      "items": {
+        "label_tab": {
+          "type": "Text",
+          "config": {
+            "label": "Label Tab",
+            "placeholder": ""
+          }
+        },
+        "titulo": {
+          "type": "Text",
+          "config": {
+            "label": "Título",
+            "placeholder": ""
+          }
+        },
+        "texto": {
+          "type": "Text",
+          "config": {
+            "label": "Texto",
+            "placeholder": ""
+          }
+        },
+        "duracion": {
+          "type": "Text",
+          "config": {
+            "label": "Duración",
+            "placeholder": ""
+          }
+        },
+        "imagen": {
+          "type": "Image",
+          "config": {
+            "label": "Imagen",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "color": {
+          "type": "Color",
+          "config": {
+            "label": "Color",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

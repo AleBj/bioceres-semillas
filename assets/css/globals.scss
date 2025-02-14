@@ -1,0 +1,202 @@
+:root {
+    --size: 390;
+    --dark: black;
+    --light: white;
+}
+
+@media (min-width: 650px) {
+    :root {
+        --size: 1500;
+    }
+}
+
+@mixin fluid($properties, $value) {
+    @each $property in $properties {
+        #{$property}: calc(#{$value} * (100vw / var(--size)));
+    }
+}
+
+// montserrat
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../static/fonts/montserrat/Montserrat-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+// inter
+
+@font-face {
+    font-family: 'inter';
+    src: url('../../static/fonts/inter/Inter-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../../static/fonts/inter/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../../static/fonts/inter/Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../../static/fonts/inter/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../../static/fonts/inter/Inter-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: clamp(1px, 12px, calc(10 * (100vw / var(--size))));
+    font-kerning: none;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    overscroll-behavior: none;
+    width: 100%;
+}
+
+body {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #25284A;
+    background-color: theme('colors.white.DEFAULT');
+
+    &.is-loading {
+        cursor: wait;
+    }
+
+    @screen s {
+        min-height: 100vh;
+        min-height: 100svh;
+    }
+}
+
+button {
+    font-family: inherit;
+    border-radius: 0;
+    appearance: none;
+}
+
+a,
+button {
+    pointer-events: auto;
+}
+
+input,
+textarea {
+    appearance: none;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+select{
+    padding: 0;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    option{
+        color:black;
+        background-color: transparent;
+    }
+}
+::placeholder {
+    color: theme('colors.black.DEFAULT');
+}
+
+.mont {
+    font-family: 'montserrat';
+}
+
+.inter {
+    font-family: 'inter';
+}
+.strong-bolder{
+    strong{font-weight: 800}
+}
+
+@import 'variables';
+@import 'typo';
+@import 'misc';

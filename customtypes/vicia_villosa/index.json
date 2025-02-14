@@ -1,0 +1,110 @@
+{
+  "id": "vicia_villosa",
+  "label": "Vicia Villosa",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "titulo": {
+        "type": "Text",
+        "config": {
+          "label": "Título Hero",
+          "placeholder": ""
+        }
+      },
+      "texto_hero": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Texto Hero",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong"
+        }
+      },
+      "imagen": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen Hero",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "recomendaciones": {
+        "type": "Group",
+        "config": {
+          "label": "Recomendaciones de siembra",
+          "fields": {
+            "fecha_tempranas": {
+              "type": "Text",
+              "config": {
+                "label": "Fecha Tempranas",
+                "placeholder": ""
+              }
+            },
+            "fecha_intermedias": {
+              "type": "Text",
+              "config": {
+                "label": "Fecha Intermedias",
+                "placeholder": ""
+              }
+            },
+            "fecha_tardias": {
+              "type": "Text",
+              "config": {
+                "label": "Fecha Tardias",
+                "placeholder": ""
+              }
+            },
+            "densidad_alto": {
+              "type": "Text",
+              "config": {
+                "label": "Densidad Alto",
+                "placeholder": ""
+              }
+            },
+            "densidad_medio": {
+              "type": "Text",
+              "config": {
+                "label": "Densidad Medio",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "ficha_tecnica": {
+        "type": "Link",
+        "config": {
+          "label": "Ficha Técnica",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_asesor_inteligente": {
+        "type": "Link",
+        "config": {
+          "label": "Video Asesor inteligente",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "caracteristicas": {
+              "type": "SharedSlice"
+            },
+            "historias_reales": {
+              "type": "SharedSlice"
+            },
+            "rich_text": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

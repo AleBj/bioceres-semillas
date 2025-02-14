@@ -1,0 +1,64 @@
+{
+  "id": "slider_home",
+  "type": "SharedSlice",
+  "name": "SliderHome",
+  "description": "SliderHome",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SliderHome",
+      "primary": {},
+      "items": {
+        "background_video": {
+          "type": "Link",
+          "config": {
+            "label": "Background Video",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "background_image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "title_slider": {
+          "type": "Text",
+          "config": {
+            "label": "Title Slider",
+            "placeholder": ""
+          }
+        },
+        "strong_text_slider": {
+          "type": "Text",
+          "config": {
+            "label": "Strong Text Slider",
+            "placeholder": ""
+          }
+        },
+        "link_boton": {
+          "type": "Link",
+          "config": {
+            "label": "Link Botón",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "cta_boton": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Botón",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

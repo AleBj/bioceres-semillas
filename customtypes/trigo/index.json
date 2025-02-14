@@ -1,0 +1,97 @@
+{
+  "id": "trigo",
+  "label": "Trigo",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        }
+      },
+      "posicion": {
+        "type": "Number",
+        "config": {
+          "label": "Posición",
+          "placeholder": "0"
+        }
+      },
+      "nuevo": {
+        "type": "Boolean",
+        "config": {
+          "label": "Nuevo",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      },
+      "nombre": {
+        "type": "Text",
+        "config": {
+          "label": "Nombre",
+          "placeholder": ""
+        }
+      },
+      "imagen": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "ciclo": {
+        "type": "Select",
+        "config": {
+          "label": "Ciclo",
+          "placeholder": "Elegir ciclo",
+          "options": [
+            "Largo",
+            "Intermedio Largo",
+            "Intermedio",
+            "Corto"
+          ]
+        }
+      },
+      "imagen_siembra_1": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen siembra 1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "imagen_siembra_2": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen siembra 2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "caracteristicas": {
+              "type": "SharedSlice"
+            },
+            "perfil_sanitario": {
+              "type": "SharedSlice"
+            },
+            "rich_text": {
+              "type": "SharedSlice"
+            },
+            "historias_reales": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "home",
+  "label": "Home",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "video_bloque_trigo": {
+        "type": "Link",
+        "config": {
+          "label": "Video Bloque Trigo",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_bloque_soja": {
+        "type": "Link",
+        "config": {
+          "label": "Video Bloque Soja",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_bloque_vicia_villosa": {
+        "type": "Link",
+        "config": {
+          "label": "Video Bloque Vicia Villosa",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_asesor_inteligente": {
+        "type": "Link",
+        "config": {
+          "label": "Video Asesor Inteligente",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "slider_home": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

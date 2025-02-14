@@ -1,0 +1,49 @@
+{
+  "id": "como_comprar",
+  "label": "Cómo Comprar",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "video_hero": {
+        "type": "Link",
+        "config": {
+          "label": "Video Hero",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "imagen_hero": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen Hero",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "multiplicadores": {
+        "type": "Link",
+        "config": {
+          "label": "Multiplicadores (.csv)",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_asesor_inteligente": {
+        "type": "Link",
+        "config": {
+          "label": "Video Asesor Inteligente",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

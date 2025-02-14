@@ -1,0 +1,195 @@
+{
+  "id": "tecnologia",
+  "label": "Tecnologia",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "titulo": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Título",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong"
+        }
+      },
+      "video_hero": {
+        "type": "Link",
+        "config": {
+          "label": "Video Hero",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "texto_tolerancia": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Texto Tolerancia",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong,em"
+        }
+      },
+      "destacado_tolerancia": {
+        "type": "Text",
+        "config": {
+          "label": "Destacado Tolerancia",
+          "placeholder": ""
+        }
+      },
+      "texto_funciona": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Texto Cómo Funciona",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong,em"
+        }
+      },
+      "destacado_funciona": {
+        "type": "Text",
+        "config": {
+          "label": "Destacado Funciona",
+          "placeholder": ""
+        }
+      },
+      "descarga_whitepapper": {
+        "type": "Link",
+        "config": {
+          "label": "Descarga Whitepapper",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "texto_sabias": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Texto Sabías como llega...",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "video_sabias": {
+        "type": "Link",
+        "config": {
+          "label": "Video Sabías...",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "titulo_tabs": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Destacado Título Tabs",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "paragraph,strong,em"
+        }
+      },
+      "mapa": {
+        "type": "Group",
+        "config": {
+          "label": "Mapa",
+          "fields": {
+            "numero_mapa": {
+              "type": "Number",
+              "config": {
+                "label": "Numero",
+                "placeholder": ""
+              }
+            },
+            "titulo_mapa": {
+              "type": "Text",
+              "config": {
+                "label": "Titulo",
+                "placeholder": ""
+              }
+            },
+            "texto_mapa": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Texto",
+                "placeholder": "",
+                "allowTargetBlank": false,
+                "single": "paragraph,strong"
+              }
+            }
+          }
+        }
+      },
+      "imagen_bloque_1": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen Bloque 1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "texto_bloque_1": {
+        "type": "Text",
+        "config": {
+          "label": "Texto Bloque 1",
+          "placeholder": ""
+        }
+      },
+      "link_bloque_1": {
+        "type": "Link",
+        "config": {
+          "label": "Link Bloque 1",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "cta_boton_bloque_1": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Botón Bloque 1",
+          "placeholder": ""
+        }
+      },
+      "imagen_bloque_2": {
+        "type": "Image",
+        "config": {
+          "label": "Imagen Bloque 2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "texto_bloque_2": {
+        "type": "Text",
+        "config": {
+          "label": "Texto Bloque 2",
+          "placeholder": ""
+        }
+      },
+      "link_bloque_2": {
+        "type": "Link",
+        "config": {
+          "label": "Link Bloque 2",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "cta_boton_bloque_2": {
+        "type": "Text",
+        "config": {
+          "label": "CTA Botón Bloque 2",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "tabs_tech": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

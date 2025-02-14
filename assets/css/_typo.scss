@@ -1,0 +1,145 @@
+
+.txt {
+
+    >* {
+
+        &:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    p,
+    li {
+        color: theme('colors.gray.4');
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 1.1;
+
+        @screen s {
+            font-size: 1.9rem;
+        }
+
+        &:not(:first-child) {
+            padding-top: 5rem;
+        }
+    }
+
+    strong {
+        color: theme('colors.black.DEFAULT');
+    }
+
+    &.--l {
+
+
+        >* {
+
+            &:not(:last-child) {
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}
+
+.h1 {
+    font-size: 8rem;
+    font-weight: bold;
+    line-height: .7;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-left: -0.035em;
+
+    * {
+        line-height: inherit;
+    }
+
+    @screen s {
+        font-size: 22rem;
+    }
+}
+
+.h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-left: -0.035em;
+
+    @screen s {
+        font-size: 14rem;
+        line-height: 1.025;
+    }
+}
+
+.h3 {
+    font-size: 3.4rem;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+
+    @screen s {
+        font-size: 6.5rem;
+        line-height: 1.13;
+    }
+}
+
+.h4 {
+    font-size: 3.2rem;
+    line-height: 1.14;
+    letter-spacing: -0.01em;
+
+    @screen s {
+        font-size: 4.5rem;
+        line-height: 1.17;
+    }
+}
+
+.title-line {
+
+    &:not(:first-child) {
+        margin-top: -0.125em;
+    }
+}
+
+.title-box {
+    --clip: 50%;
+
+    clip-path: inset(var(--clip) calc(var(--clip) * 1.5) var(--clip) calc(var(--clip) * .5) round .75rem);
+    will-change: transform;
+}
+
+strong {
+    font-weight: 400;
+}
+
+:root {
+    --duration: 1.25s;
+    --delay: 0.075s;
+}
+
+@for $i from 0 through 50 {
+    .c-#{$i} {
+        transform: translate3d(0, 100%, 0);
+
+        .animate.is-active & {
+            transition: transform var(--duration) $ExpoEaseOut;
+            transition-delay: calc(0.05s * #{$i});
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .l-#{$i} {
+        transform: translate3d(0, 100%, 0);
+
+        .animate.is-active & {
+            transition: transform var(--duration) $ExpoEaseOut;
+            transition-delay: calc(var(--delay) * #{$i});
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}

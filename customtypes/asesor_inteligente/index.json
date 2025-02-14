@@ -1,0 +1,34 @@
+{
+  "id": "asesor_inteligente",
+  "label": "Asesor Inteligente",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "video_hero": {
+        "type": "Link",
+        "config": {
+          "label": "Video Hero",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "csv_asesor": {
+        "type": "Link",
+        "config": {
+          "label": "CSV Asesor",
+          "placeholder": "",
+          "select": "media"
+        }
+      },
+      "video_donde_comprar": {
+        "type": "Link",
+        "config": {
+          "label": "Video Donde Comprar",
+          "placeholder": "",
+          "select": "media"
+        }
+      }
+    }
+  }
+}
